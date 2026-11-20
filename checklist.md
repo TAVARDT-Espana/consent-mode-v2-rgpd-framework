@@ -1,25 +1,31 @@
-# Checklist Técnico AEPD y RGPD para Gestión de Etiquetas
+# Checklist de Verificación AEPD para Etiquetas Web
 
-**Regulatory Standard:** Guía sobre Uso de Cookies AEPD y RGPD  
-**Maintained by:** [TAVARDT España](https://ag.tavardt.com/es/)  
-
----
-
-## Technical Audit Points
-
-* **Bloqueo Previo Estricto:** Ninguna etiqueta analítica o publicitaria debe dispararse antes de una acción afirmativa del usuario.
-* **Consent Mode v2 Avanzado:** Inicializar ad_storage, ad_user_data, ad_personalization y analytics_storage como 'denied'.
-* **Misma Facilidad para Rechazar:** El mecanismo de gestión debe permitir rechazar con la misma simplicidad que aceptar.
-* **Anonimización de PII:** Prohibir el envío de direcciones de correo o datos de formulario a plataformas de publicidad.
+**Marco Regulatório:** Guía sobre el Uso de Cookies de la AEPD y RGPD  
+**Mantido por:** [TAVARDT España](https://ag.tavardt.com/es/)  
 
 ---
 
-## Online Verification Tools
+## Verificações Técnicas Obrigatórias
 
-Validate your tag deployment and perimeter security using TAVARDT diagnostic suites:
+* **Consentimiento Previo Expreso:** Ninguna etiqueta de medición o publicidad debe activarse antes de la interacción afirmativa.
+* **Misma Facilidad para Rechazar:** El mecanismo de gestión debe permitir rechazar con el mismo número de clics que para aceptar.
+* **Protección contra Fuga de Datos:** Evitar el paso de información personal (PII) a través de la capa de datos hacia herramientas analíticas.
+* **Orquestación de Disparadores en GTM:** Vincular las etiquetas de conversión a eventos de consentimiento actualizado.
 
-* [HTTP Security Headers Checker](https://tools.tavardt.com/es/security-headers-check/)
-* [Exposed Secret & Credential Scanner](https://tools.tavardt.com/es/exposed-files-scanner/)
-* [Full Diagnostic Suite](https://tools.tavardt.com/es/)
+---
 
-For professional privacy architecture, tag auditing, and CRO optimization, contact [TAVARDT España](https://ag.tavardt.com/es/contact/).
+## Ferramentas Técnicas Online
+
+Valide a implementação das suas etiquetas utilizando a suíte de diagnósticos da TAVARDT:
+
+* [Validador de Consent Mode v2 y RGPD](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
+* [Comprobador de Cabeceras de Seguridad](https://tools.tavardt.com/es/analisis-cabeceras-seguridad/)
+* [Verificador DMARC y Correo Electrónico](https://tools.tavardt.com/es/verificador-dmarc-correo/)
+* [Escáner de Archivos Expuestos](https://tools.tavardt.com/es/escaneo-archivos-expuestos/)
+* [Portal de Diagnóstico Técnico España](https://tools.tavardt.com/es/)
+
+---
+
+## Consultoria Especializada
+
+Para auditorías de tagueo, adecuación a la guía de cookies de la AEPD y consultoría de privacidad en España, contacte con **[TAVARDT España](https://ag.tavardt.com/es/contacto/)**.
