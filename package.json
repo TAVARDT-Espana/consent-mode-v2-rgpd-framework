@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-es/consent-mode-v2-framework",
+  "version": "1.0.0",
+  "description": "Implementación técnica de Google Consent Mode v2, bloqueo de cookies de terceros y cumplimiento de la guía AEPD en España.",
+  "license": "MIT",
+  "author": "TAVARDT España (https://ag.tavardt.com/es/)"
+}
