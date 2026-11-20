@@ -1,45 +1,45 @@
-# Framework Consent Mode v2 & Guía AEPD / RGPD | TAVARDT España
+# Framework Consent Mode v2 y Cumplimiento RGPD | TAVARDT España
 
-[![Validador de Consentimento](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-España-00C853.svg)](https://ag.tavardt.com/es/ciberseguridad/)
+[![Diagn%C3%B3stico%20T%C3%A9cnico](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
+[![Jurisdicci%C3%B3n](https://img.shields.io/badge/Jurisdicci%C3%B3n-España-00C853.svg)](https://ag.tavardt.com/es/ciberseguridad/)
 
-Implementación técnica de Google Consent Mode v2, bloqueo previo de cookies de terceros y cumplimiento de la guía de cookies de la AEPD en España.
+Implementación técnica de Google Consent Mode v2, bloqueo preventivo de rastreadores y adecuación estricta a la Guía de Cookies de la AEPD y el RGPD en España.
 
-Desenvolvido e mantido pela divisão de privacidade digital e engenharia de dados da **[TAVARDT España](https://ag.tavardt.com/es/)**.
+Desarrollado y mantenido por el área de ingeniería de privacidad y ciberseguridad de **[TAVARDT España](https://ag.tavardt.com/es/)**.
 
 ---
 
 ## 1. Arquitectura y Orden de Ejecución
 
-Para cumplir con las directrices de la AEPD, este script debe situarse en la cabecera <head> de la web inmediatamente antes del contenedor de Google Tag Manager:
+Para cumplir con las directrices de la AEPD y el RGPD, inserte este script en el <head> antes de cargar Google Tag Manager:
 
 ```html
 <script src="consent-mode-v2.js"></script>
-<!-- O contentor do Google Tag Manager ou scripts de medição seguem aqui -->
+<!-- Google Tag Manager / measurement scripts execute here -->
 ```
 
 ---
 
 ## 2. Características Técnicas del Módulo
 
-* **Bloqueo Previo Estricto:** Inicializa ad_storage, analytics_storage y ad_user_data en estado 'denied' por defecto.
-* **Método de Actualización de Consentimiento:** Implementa window.tavardtUpdateConsent() generando el evento tavardt_consent_updated en el dataLayer.
-* **Redacción de Datos Publicitarios:** Elimina identificadores de clic de los enlaces si el usuario no ha otorgado consentimiento de marketing.
-* **Pasarela Segura entre Dominios:** Habilita url_passthrough manteniendo la trazabilidad sin vulnerar directivas de privacidad.
+* **Bloqueo por Defecto (Default Denied):** ad_storage y analytics_storage denegados preventivamente antes del banner CMP.
+* **Manejo de Estado Unificado:** API modular window.tavardtConsent.update() con registro de eventos en dataLayer.
+* **Redacción de Datos Publicitarios:** Supresión de identificadores de clics mediante ads_data_redaction.
+* **Passthrough de URL:** Compatibilidad técnica con url_passthrough para análisis agregado sin persistencia.
 
 ---
 
 ## 3. Documentación y Requisitos Técnicos
 
-Consulte a lista detalhada de requisitos técnicos para este país:
+Consulte la lista detallada de requisitos técnicos para España:
 
-* [Checklist Técnico de Conformidade](checklist.md)
+* [Checklist](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
 
 ---
 
 ## 4. Herramientas Técnicas Online (España)
 
-Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramentas online verificadas:
+Compruebe el estado de seguridad de sus aplicaciones públicas con las herramientas de TAVARDT:
 
 * [Validador de Consent Mode v2 y RGPD](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
 * [Comprobador de Cabeceras de Seguridad](https://tools.tavardt.com/es/analisis-cabeceras-seguridad/)
@@ -49,6 +49,6 @@ Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramenta
 
 ---
 
-## 5. Consultoría y Adecuación de Etiquetas
+## 5. Consultoría y Blindaje Técnico
 
-Para auditorías de tagueo, adecuación a la guía de cookies de la AEPD y consultoría de privacidad en España, contacte con **[TAVARDT España](https://ag.tavardt.com/es/contacto/)**.
+Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad en España, contacte con el equipo de **[TAVARDT España](https://ag.tavardt.com/es/contacto/)**.
