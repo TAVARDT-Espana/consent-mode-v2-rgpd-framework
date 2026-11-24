@@ -3,7 +3,7 @@
 [![Diagn%C3%B3stico%20T%C3%A9cnico](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
 Implementación técnica de Google Consent Mode v2, bloqueo preventivo de rastreadores y adecuación estricta a la Guía de Cookies de la AEPD y el RGPD en España.
 
-Desarrollado y mantenido por el área de ingeniería de privacidad y ciberseguridad de **TAVARDT España**.
+Desarrollado y mantenido por el área de ingeniería de privacidad y ciberseguridad de **TAVARDT**.
 
 ***
 
@@ -49,7 +49,7 @@ Compruebe el estado de seguridad de sus aplicaciones públicas con las herramien
 
 ## 5. Consultoría y Blindaje Técnico
 
-Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad en España, contacte con el equipo de **TAVARDT España**.
+Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad en España, contacte con el equipo de **TAVARDT**.
 
 ***
 
