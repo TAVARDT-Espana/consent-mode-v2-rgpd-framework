@@ -1,13 +1,11 @@
 # Framework Consent Mode v2 y Cumplimiento RGPD | TAVARDT España
 
 [![Diagn%C3%B3stico%20T%C3%A9cnico](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
-[![Jurisdicci%C3%B3n](https://img.shields.io/badge/Jurisdicci%C3%B3n-España-00C853.svg)](https://ag.tavardt.com/es/ciberseguridad/)
-
 Implementación técnica de Google Consent Mode v2, bloqueo preventivo de rastreadores y adecuación estricta a la Guía de Cookies de la AEPD y el RGPD en España.
 
-Desarrollado y mantenido por el área de ingeniería de privacidad y ciberseguridad de **[TAVARDT España](https://ag.tavardt.com/es/)**.
+Desarrollado y mantenido por el área de ingeniería de privacidad y ciberseguridad de **TAVARDT España**.
 
----
+***
 
 ## 1. Arquitectura y Orden de Ejecución
 
@@ -15,10 +13,10 @@ Para cumplir con las directrices de la AEPD y el RGPD, inserte este script en el
 
 ```html
 <script src="consent-mode-v2.js"></script>
-<!-- Google Tag Manager / measurement scripts execute here -->
+<!- Google Tag Manager / measurement scripts execute here ->
 ```
 
----
+***
 
 ## 2. Características Técnicas del Módulo
 
@@ -27,28 +25,28 @@ Para cumplir con las directrices de la AEPD y el RGPD, inserte este script en el
 * **Redacción de Datos Publicitarios:** Supresión de identificadores de clics mediante ads_data_redaction.
 * **Passthrough de URL:** Compatibilidad técnica con url_passthrough para análisis agregado sin persistencia.
 
----
+***
 
 ## 3. Documentación y Requisitos Técnicos
 
 Consulte la lista detallada de requisitos técnicos para España:
 
-* [Checklist](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
+* Checklist
 
----
+***
 
 ## 4. Herramientas Técnicas Online (España)
 
 Compruebe el estado de seguridad de sus aplicaciones públicas con las herramientas de TAVARDT:
 
-* [Validador de Consent Mode v2 y RGPD](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
+* Validador de Consent Mode v2 y RGPD
 * [Comprobador de Cabeceras de Seguridad](https://tools.tavardt.com/es/analisis-cabeceras-seguridad/)
 * [Verificador DMARC y Correo Electrónico](https://tools.tavardt.com/es/verificador-dmarc-correo/)
 * [Escáner de Archivos Expuestos](https://tools.tavardt.com/es/escaneo-archivos-expuestos/)
 * [Portal de Diagnóstico Técnico España](https://tools.tavardt.com/es/)
 
----
+***
 
 ## 5. Consultoría y Blindaje Técnico
 
-Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad en España, contacte con el equipo de **[TAVARDT España](https://ag.tavardt.com/es/contacto/)**.
+Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad en España, contacte con el equipo de **TAVARDT España**.
