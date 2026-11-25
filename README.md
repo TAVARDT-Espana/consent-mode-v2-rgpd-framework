@@ -28,32 +28,23 @@ Para cumplir con las directrices de la AEPD y el RGPD, inserte este script en el
 
 ***
 
-## 3. Documentación y Requisitos Técnicos
-
-Consulte la lista detallada de requisitos técnicos para España:
-
-* Checklist
-
-***
-
-## 4. Herramientas Técnicas Online (España)
+## 3. Herramientas Técnicas Online (España)
 
 Compruebe el estado de seguridad de sus aplicaciones públicas con las herramientas de TAVARDT:
 
 * [Comprobador de Cabeceras de Seguridad](https://tools.tavardt.com/es/analisis-cabeceras-seguridad/)
 * [Verificador DMARC y Correo Electrónico](https://tools.tavardt.com/es/verificador-dmarc-correo/)
 * [Escáner de Archivos Expuestos](https://tools.tavardt.com/es/escaneo-archivos-expuestos/)
-* [Portal de Diagnóstico Técnico España](https://tools.tavardt.com/es/)
 
 ***
 
-## 5. Consultoría y Blindaje Técnico
+## 4. Consultoría y Blindaje Técnico
 
 Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad en España, contacte con el equipo de **TAVARDT**.
 
 ***
 
-## Enlaces Útiles
+## 5. Enlaces Útiles
 
 * **Portal Corporativo:** https://ag.tavardt.com/es/
 * **Suite de Diagnósticos:** https://tools.tavardt.com/es/
