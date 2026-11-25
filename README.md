@@ -1,12 +1,10 @@
 # Framework Consent Mode v2 y Cumplimiento RGPD
 
-[![Licencia: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Diagnóstico Técnico](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/es/validador-consent-mode-v2-rgpd/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-yellow.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Implementación técnica de Google Consent Mode v2, bloqueo preventivo de rastreadores y adecuación estricta a la Guía de Cookies de la AEPD y el RGPD en España.
-
-Desarrollado y mantenido por el área de ingeniería de privacidad y ciberseguridad de **TAVARDT**.
 
 ***
 
@@ -42,7 +40,6 @@ Consulte la lista detallada de requisitos técnicos para España:
 
 Compruebe el estado de seguridad de sus aplicaciones públicas con las herramientas de TAVARDT:
 
-* Validador de Consent Mode v2 y RGPD
 * [Comprobador de Cabeceras de Seguridad](https://tools.tavardt.com/es/analisis-cabeceras-seguridad/)
 * [Verificador DMARC y Correo Electrónico](https://tools.tavardt.com/es/verificador-dmarc-correo/)
 * [Escáner de Archivos Expuestos](https://tools.tavardt.com/es/escaneo-archivos-expuestos/)
@@ -65,7 +62,7 @@ Para auditorías de etiquetas web, verificación de CMP y blindaje de privacidad
 ***
 
 ### Licencia
-Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
+Distribuido bajo la Licencia MIT.
 
 ***
 
